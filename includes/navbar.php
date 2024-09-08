@@ -1,3 +1,8 @@
+<!-- Green sock animation platform include -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+
+<!-- Begin navbar -->
 <div class="navigatiebalk">  
     <div class="navbar">
         <div class="brand">{Milan Megens}</div>
@@ -7,10 +12,10 @@
             <div></div>
         </div>
         <div class="desktop-menu" id="desktop-menu">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
+            <a href="#overmij">Over mij</a>
+            <a href="#Vaardigheden">Vaardigheden</a>
+            <a href="#Projecten">Projecten</a>
+            <a href="#Contact">Contact</a>
         </div>
     </div>
 
@@ -27,10 +32,10 @@
 
         <!-- Navigatie items -->
         <div class="nav-items">
-            <a href="#">Over mij</a>
-            <a href="#">Vaardigheden</a>
-            <a href="#">Projecten</a>
-            <a href="#">Contact</a>
+            <a href="#overmij" onclick="toggleMenu()">Over mij</a>
+            <a href="#vaardigheden" onclick="toggleMenu()">Vaardigheden</a>
+            <a href="#projecten" onclick="toggleMenu()">Projecten</a>
+            <a href="#contact" onclick="toggleMenu()">Contact</a>
         </div>
 
         <!-- Socials -->
@@ -42,7 +47,7 @@
             <a href="www.linkedin.com/in/milanmegens2007" target="_blank">
                 <img src="content/icons/linkedin.png">
             </a>
-            <a href="https://github.com/MiwanMegons" target="_blank">
+            <a href="https://github.com/MilanMegens" target="_blank">
                 <img src="content/icons/github.png">
             </a>
             <a href="https://www.instagram.com/milanmegens/" target="_blank">

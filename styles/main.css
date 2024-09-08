@@ -9,10 +9,10 @@ body {
     overflow-x: hidden;
 }
 
-/* Homepage CSS */
+/*------------ Homepage ------------*/
 .homepage{
     background-color: #E3E3E3;
-    height: 85vh;
+    height: 650px;
     position: relative;
 }
 
@@ -81,4 +81,114 @@ body {
 
 .horizontal-scrolling-items__item {
     white-space: nowrap;
+}
+
+/*------------ Over Mij pagina ------------*/
+.overmij {
+    height: 950px;
+    background-color: #D9D9D9;
+    text-align: center;
+    position: relative;
+}
+
+.overmij h1{
+    width: 80%;
+    padding-top: 3vh;
+    font-size: 30px;   
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+/* Lijn onder tekst */
+.overmij hr{
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    background-color: #000;
+}
+
+.overmij p{
+    font-size: 16px;
+    line-height: 21px;
+    width: 80%;
+    text-align: left;
+    margin: 0;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rabel{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.overmij img{
+    position: absolute;
+    height: 300px;
+    width: fit-content;
+    bottom: 12vh;
+}
+
+.cv {
+    position: absolute;
+    bottom: 5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #F1F1F1;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.lijntje-5{
+    position: absolute;
+    bottom: 0;
+    width: 100% !important;
+    height: 2px;
+    background-color: #000;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+/*------------ Vaardigheden pagina ------------*/
+.vaardigheden{
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 800px;
+    background-color: #D8D8D8;
+}
+
+.vaardigheden h1{
+    width: 80%;
+    padding-top: 3vh;
+    font-size: 30px;   
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vaardigheden hr{
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    background-color: #000;
 }
