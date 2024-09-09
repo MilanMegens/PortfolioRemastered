@@ -50,7 +50,7 @@ body {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 80vw; /* Optioneel: Pas de breedte aan indien nodig */
+    width: 50vw; /* Optioneel: Pas de breedte aan indien nodig */
     z-index: 1; /* Zorg ervoor dat de foto vooraan staat */
 }
 
@@ -112,6 +112,7 @@ body {
     margin-right: auto;
     height: 2px;
     background-color: #000;
+    border: none;
 }
 
 .overmij p{
@@ -166,10 +167,11 @@ body {
 
 /*------------ Vaardigheden pagina ------------*/
 .vaardigheden{
+    position: relative;
     text-align: center;
     margin: 0;
     width: 100%;
-    height: 800px;
+    height: 1350px;
     background-color: #D8D8D8;
 }
 
@@ -191,4 +193,168 @@ body {
     margin-right: auto;
     height: 2px;
     background-color: #000;
+    border: none;
+}
+
+/* Programmeertalen en frameworks */
+.progtalen-titel {
+    text-align: center; /* Zorgt ervoor dat titel en lijn gecentreerd zijn */
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.progtalen .titol {
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.proglijn {
+    width: 70% !important;
+    height: 2px;
+    background-color: #000;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.progtalen {
+    display: grid;
+    width: 70%;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+    justify-items: center;
+}
+
+.progtalen p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.progtalen .sql,
+.progtalen .php,
+.progtalen .html,
+.progtalen .css,
+.progtalen .js,
+.progtalen .gsap,
+.progtalen .photoshop,
+.progtalen .lightroom,
+.progtalen .wordpress,
+.progtalen .git,
+.progtalen .xampp,
+.progtalen .vscode,
+.progtalen .figma,
+.progtalen .excel,
+.progtalen .word,
+.progtalen .powerpoint{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+/* SQL Sectie */
+.sql img{
+    height: 50px;
+    width: fit-content;
+}
+
+/* PHP Sectie */
+.php img{
+    height: 50px;
+    width: fit-content;
+}
+
+/* HTML Sectie */
+.html img{
+    height: 50px;
+    width: fit-content;
+}
+
+/* CSS Sectie */
+.css img{
+    height: 50px;
+    width: fit-content;
+}
+
+/* javascript Sectie */
+.js img{
+    height: 50px;
+    width: fit-content;
+}
+
+/* gsap Sectie */
+.gsap img{
+    height: 50px;
+    width: fit-content;
+}
+
+/* Photoshop Sectie */
+.photoshop img{
+    height: 50px;
+    width: fit-content;
+}
+
+/* Photoshop Sectie */
+.lightroom img{
+    height: 50px;
+    width: fit-content;
+}
+
+/* WordPress Sectie */
+.wordpress img{
+    height: 50px;
+    width: fit-content;
+}
+
+/* Git Sectie */
+.git img{
+    height: 50px;
+    width: fit-content;
+}
+
+/* Xampp Sectie */
+.xampp img{
+    height: 50px;
+    width: fit-content;
+}
+
+/* VS Code Sectie */
+.vscode img{
+    height: 50px;
+    width: fit-content;
+}
+
+/* Figma Sectie */
+.figma img{
+    height: 50px;
+    width: fit-content;
+}
+
+/* Excel Sectie */
+.excel img{
+    height: 50px;
+    width: fit-content;
+}
+
+/* Word Sectie */
+.word img{
+    height: 50px;
+    width: fit-content;
+}
+
+/* PowerPoint Sectie */
+.powerpoint img{
+    height: 50px;
+    width: fit-content;
 }

@@ -44,7 +44,7 @@
 
         <!-- Icons -->
         <div class="socials">
-            <a href="www.linkedin.com/in/milanmegens2007" target="_blank">
+            <a href="https://www.linkedin.com/in/milanmegens2007" target="_blank">
                 <img src="content/icons/linkedin.png">
             </a>
             <a href="https://github.com/MilanMegens" target="_blank">
