@@ -33,5 +33,8 @@
 
     <!-- Vaardigheden pagina -->
     <?php include('paginas/vaardigheden.php') ?>
+
+    <!-- Projecten pagina -->
+    <?php include('paginas/projecten.php') ?>
 </body>
 </html>

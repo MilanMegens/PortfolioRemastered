@@ -25,4 +25,4 @@
         </div>
         <!-- Scroll tekst en foto -->
         <img class="foto-1" src="content/fotos/milan-1.png" alt="">
-    </div>
+</div>

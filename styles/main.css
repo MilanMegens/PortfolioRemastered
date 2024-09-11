@@ -50,7 +50,8 @@ body {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 50vw; /* Optioneel: Pas de breedte aan indien nodig */
+    height: 350px;
+    width: fit-content; /* Optioneel: Pas de breedte aan indien nodig */
     z-index: 1; /* Zorg ervoor dat de foto vooraan staat */
 }
 
@@ -357,4 +358,107 @@ body {
 .powerpoint img{
     height: 50px;
     width: fit-content;
+}
+
+/*------------ Projecten pagina ------------*/
+.projecten{
+    position: relative;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 800px;
+    background-color: #D8D8D8;
+}
+
+.projecten h1{
+    width: 80%;
+    padding-top: 3vh;
+    font-size: 30px;   
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projecten hr{
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    background-color: #000;
+    border: none;
+}
+
+.project1 .boxje{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 200px;
+    background-color: #CBCBCB;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project1 .boxje img{
+    margin-top: 5px;
+    width: 80%;
+}
+
+.project1 .boxje{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 200px;
+    background-color: #CBCBCB;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project1 .boxje p{
+    margin: 0;
+}
+
+.project1 h1,
+.project1 p{
+    width: 80%;
+    text-align: left;
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project1 a{
+    text-decoration: none;
+    color: #000;
+}
+
+.casestudy {
+    position: relative;
+    display: inline-block;
+}
+
+.casestudy img {
+    width: 100%;
+    filter: brightness(40%);
+}
+
+.casestudy::after {
+    content: "LinkedIn school project";
+    position: absolute;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
 }

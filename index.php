@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aan het laden...</title>
+    <link rel="icon" type="image/x-icon" href="content/icons/favicon_milan.png">
     <!-- Link met CSS -->
     <link rel="stylesheet" href="styles/loading.css">
     <!-- Link met JS -->
