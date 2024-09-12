@@ -7,7 +7,7 @@
         <a href="case-studies/linkedin.php">
             <div class="boxje">
                 <img src="content/fotos/linkedin.png" alt="Projectfoto">
-                <p>Klik om casestudy te bekijken</p>
+                <p class="cntr">Klik om casestudy te bekijken</p>
             </div>
         </a>
 

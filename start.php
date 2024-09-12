@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/navbar.css">
 
+    <!-- Phosphor icon library link -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
     <!-- JavaScript Links -->
     <script src="scripts/main.js" defer></script>
     <script src="scripts/navbar.js" defer></script>
@@ -36,5 +39,8 @@
 
     <!-- Projecten pagina -->
     <?php include('paginas/projecten.php') ?>
+
+    <!-- Contact pagina -->
+    <?php include('paginas/contact.php') ?>
 </body>
 </html>

@@ -54,9 +54,12 @@
             <!-- Bijlagen -->
             <div class="bijlagen">
                 <h1><strong>Bijlagen:</strong></h1>
-                <p><strong>Github repository:</strong> <a href="https://github.com/MilanMegens/LinkedIn-project" target="_blank">open repository</a></p>
-                <p><strong>Figma design:</strong> <a href="https://github.com/MilanMegens/LinkedIn-project" target="_blank">open figma design</a></p>
-                <p><strong>Documentatie:</strong> <a href="https://github.com/MilanMegens/LinkedIn-project" target="_blank">open dropbox</a></p>
+                <p><strong>Github repository:</strong><br>
+                <a href="https://github.com/MilanMegens/LinkedIn-project" target="_blank">open repository ></a></p>
+                <p><strong>Figma design:</strong><br>
+                <a href="https://github.com/MilanMegens/LinkedIn-project" target="_blank">open figma design ></a></p>
+                <p><strong>Documentatie en screenshots:</strong><br>
+                <a href="https://github.com/MilanMegens/LinkedIn-project" target="_blank">open dropbox ></a></p>
             </div>
 
             <div class="container">
