@@ -56,7 +56,7 @@
                 <h1>Contactformulier</h1>
                 <a href="#" id="closeOverlay"><i class="ph-bold ph-x"></i></a>
             </div>
-            <form action="#" method="POST">
+            <form action="includes/send-mail.php" method="POST">
                 <input type="text" name="voornaam" placeholder="Voornaam *" required>
                 <input type="text" name="achternaam" placeholder="Achternaam *" required>
 
