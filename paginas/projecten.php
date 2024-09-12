@@ -1,6 +1,6 @@
 <div class="projecten">
     <h1>Projecten</h1>
-    <hr>
+    <hr id="projecten">
 
     <!-- project 1: Linkedin -->
     <div class="project1">
