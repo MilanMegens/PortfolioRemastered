@@ -22,3 +22,13 @@ document.getElementById('prev').addEventListener('click', () => {
 
 // Toon de eerste review bij het laden
 showReview(currentReview);
+
+document.getElementById('openOverlay').addEventListener('click', function(e) {
+    e.preventDefault(); // Zorg ervoor dat de link niet naar Instagram gaat
+    document.getElementById('overlay').style.display = 'block';
+});
+
+document.getElementById('closeOverlay').addEventListener('click', function(e) {
+    e.preventDefault(); // Voorkom de standaard actie van de link
+    document.getElementById('overlay').style.display = 'none'; // Verberg de overlay
+});

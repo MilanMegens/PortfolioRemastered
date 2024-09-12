@@ -2,7 +2,7 @@
     <h1>Contact</h1>
 
     <!-- Mail box -->
-    <div class="box">
+    <div class="box" id="contact">
         <div class="tekst">
             <p>Je kan me hier op mailen</p>
             <h2>milanoss2007@gmail.com</h2>
@@ -45,7 +45,30 @@
         </div>
 
         <div class="pijl">
-            <a href="https://www.instagram.com/milanmegens/" target="_blank"><i class="ph-light ph-caret-circle-right"></i></a>
+        <a href="#" id="openOverlay"><i class="ph-light ph-caret-circle-right"></i></a>
+        </div>
+    </div>
+
+    <!-- Overlay -->
+    <div id="overlay" class="overlay">
+        <div class="overlay-content">
+            <div class="tekst">
+                <h1>Contactformulier</h1>
+                <a href="#" id="closeOverlay"><i class="ph-bold ph-x"></i></a>
+            </div>
+            <form action="#" method="POST">
+                <input type="text" name="voornaam" placeholder="Voornaam *" required>
+                <input type="text" name="achternaam" placeholder="Achternaam *" required>
+
+                <div class="contact-info">
+                    <input type="email" name="email" placeholder="Email *" required>
+                    <input type="tel" name="telefoon" placeholder="Telefoonnummer (Optioneel)">
+                </div>
+
+                <textarea name="bericht" rows="4" placeholder="Bericht *" required></textarea>
+
+                <button type="submit">Verzenden</button>
+            </form>
         </div>
     </div>
 
@@ -160,7 +183,6 @@
                 </p>
             </div>
         </div>
-
-
+        <img class="wow" src="content/fotos/milan-3.png" alt="Foto onderaan">
     </div><!-- Reviews moeten in deze div -->    
 </div>
