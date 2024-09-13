@@ -25,22 +25,22 @@
     <script src="scripts/navbar.js" defer></script>
 </head>
 <body>
-    <!-- Include van de Navbar -->
-    <?php include('includes/navbar.php') ?>
+            <!-- Include van de Navbar -->
+            <?php include('includes/navbar.php') ?>
 
-    <!-- Homepage -->
-    <?php include('paginas/homepage.php') ?>
+            <!-- Homepage -->
+            <?php include('paginas/homepage.php') ?>
 
-    <!-- Over mij pagina -->
-    <?php include('paginas/overmij.php') ?>
+            <!-- Over mij pagina -->
+            <?php include('paginas/overmij.php') ?>
 
-    <!-- Vaardigheden pagina -->
-    <?php include('paginas/vaardigheden.php') ?>
+            <!-- Vaardigheden pagina -->
+            <?php include('paginas/vaardigheden.php') ?>
 
-    <!-- Projecten pagina -->
-    <?php include('paginas/projecten.php') ?>
+            <!-- Projecten pagina -->
+            <?php include('paginas/projecten.php') ?>
 
-    <!-- Contact pagina -->
-    <?php include('paginas/contact.php') ?>
+            <!-- Contact pagina -->
+            <?php include('paginas/contact.php') ?>
 </body>
 </html>
