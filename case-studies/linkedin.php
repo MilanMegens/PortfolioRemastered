@@ -57,9 +57,9 @@
                 <p><strong>Github repository:</strong><br>
                 <a href="https://github.com/MilanMegens/LinkedIn-project" target="_blank">open repository ></a></p>
                 <p><strong>Figma design:</strong><br>
-                <a href="https://github.com/MilanMegens/LinkedIn-project" target="_blank">open figma design ></a></p>
+                <a href="https://www.figma.com/design/mgILQuYRdFqMIQ1Vr1swb9/Linkedin?node-id=0-1&t=sBHSW7qT75EJXQPU-1" target="_blank">open figma design ></a></p>
                 <p><strong>Documentatie en screenshots:</strong><br>
-                <a href="https://github.com/MilanMegens/LinkedIn-project" target="_blank">open dropbox ></a></p>
+                <a href="https://drive.google.com/drive/folders/1Pt4Og_heMWXhgXQ-pkMkFc4Ejcj54sEQ?usp=drive_link" target="_blank">open google drive ></a></p>
             </div>
 
             <div class="container">

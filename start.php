@@ -42,5 +42,7 @@
 
             <!-- Contact pagina -->
             <?php include('paginas/contact.php') ?>
+
+            <button id="scrollToTop" onclick="scrollToTop()"><i class="ph ph-caret-up"></i></button>
 </body>
 </html>

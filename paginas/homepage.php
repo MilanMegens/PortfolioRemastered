@@ -1,4 +1,5 @@
 <div class="homepage">
+    <div class="tekst">
         <!-- Functie HomePage -->
         <p class="functie">- Software Developer</p>
 
@@ -11,7 +12,14 @@
             en projecten. Voel je vrij om contact
             met me op te nemen!
         </p>
+    </div>
 
+    <div class="foto">
+        <!-- Foto -->
+        <img class="foto-1" src="content/fotos/milan-1.png" alt="">
+    </div>
+
+        <!-- Scroll tekst -->
         <div class="scrolling-tekst">
             <div class="horizontal-scrolling-items">
                 <div class="horizontal-scrolling-items__item">
@@ -23,6 +31,4 @@
                 </div>
             </div>
         </div>
-        <!-- Scroll tekst en foto -->
-        <img class="foto-1" src="content/fotos/milan-1.png" alt="">
 </div>

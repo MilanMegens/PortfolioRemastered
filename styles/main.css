@@ -755,3 +755,100 @@ textarea:focus{
     bottom: 0;
     align-self: center;
 }
+
+#scrollToTop {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    cursor: pointer;
+    font-size: 20px;
+    opacity: 70%;
+}
+
+#scrollToTop i{
+    opacity: 100%;
+    font-size: 25px;
+}
+
+#scrollToTop:hover {
+    background-color: darkgray;
+}
+
+
+/*------------ Tablet CSS ------------*/
+@media only screen and (min-width: 426px) {
+    .homepage{
+        height: 550px;
+    }
+
+    .tekst{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .functie{
+        font-size: 22px;
+        color: #808080;
+        width: 35%;
+        margin: 0;
+        margin-top: 10vh;
+        margin-right: 10%;
+        float: right;
+    }
+    
+    /* Titel CSS */
+    .titel{
+        font-size: 25px;
+        font-weight: bold;
+        width: 35%;
+        margin-right: 10%;
+        float: right;
+    }
+    
+    /* Beschrijving */
+    .beschrijving{
+        font-size: 16px;
+        width: 35%;
+        margin: 0;
+        margin-right: 10%;
+        float: right;
+        z-index: 1;
+    }
+    
+    /* Foto */
+    .foto-1 {
+        position: absolute;
+        bottom: 0;
+        left: 25%;
+        transform: translateX(-50%);
+        height: 500px;
+        width: fit-content;
+        z-index: 1;
+    }
+
+    .scrolling-tekst {
+        width: 100%;
+        overflow-x: hidden;
+        position: absolute;
+        bottom: -4vh;
+        z-index: 0;
+    }
+
+    .horizontal-scrolling-items {
+        font-size: 200px;
+    }
+}

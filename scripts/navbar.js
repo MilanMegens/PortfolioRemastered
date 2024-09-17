@@ -24,3 +24,29 @@ document.querySelectorAll('.nav-items a, .desktop-menu a').forEach(anchor => {
         }
     });
 });
+
+// Functie om de pagina naar boven te scrollen
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// Functie om te controleren of we niet op de homepage zijn
+function checkIfNotHome() {
+    const scrollToTopButton = document.getElementById('scrollToTop');
+
+    // Controleren of we niet op de homepage zijn
+    if (window.location.pathname !== '/') {
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 200) { // Toon knop als er meer dan 200px is gescrold
+                scrollToTopButton.style.display = 'flex';
+            } else {
+                scrollToTopButton.style.display = 'none';
+            }
+        });
+    } else {
+        scrollToTopButton.style.display = 'none'; // Verberg knop op de homepage
+    }
+}
+
+// Roep de functie aan zodra de pagina is geladen
+window.onload = checkIfNotHome;
