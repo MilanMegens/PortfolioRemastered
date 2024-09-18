@@ -986,4 +986,50 @@ textarea:focus{
     }
 
     /*------------ Contact pagina ------------*/
+    .contact{
+        height: 650px !important;
+    }
+    
+    .wow {
+        display: none;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between;
+        align-items: baseline;
+        width: 100%;
+        height: 1450px;
+        background-color: #E3E3E3;
+        position: relative;
+    }
+    
+    .contactblokjes, .referenties {
+        width: 50%;
+    }
+
+    .reviews .titel{
+        margin: 0;
+        width: 70%;
+    }
+
+    .box{
+        height: 50px;
+        margin-bottom: 26px;
+    }
+
+    .box .tekst{
+        align-items: baseline;
+    }
+
+    .overlay {
+        width: 50%;
+        top: 20%;
+        left: 25%;
+    }
+
+    .overlay .tekst{
+        align-items: baseline;
+    }
 }
