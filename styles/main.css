@@ -1031,7 +1031,7 @@ textarea:focus{
 
     .reviews .titel{
         margin: 0;
-        width: 70%;
+        width: 100%;
     }
 
     .box{
@@ -1197,7 +1197,7 @@ textarea:focus{
 
     .reviews .titel{
         margin: 0;
-        width: 70%;
+        width: 100%;
     }
 
     .box{
@@ -1221,5 +1221,9 @@ textarea:focus{
         justify-content: center;
         width: 100%;
         margin: 0;
+    }
+
+    .ph-light.ph-caret-circle-right:before{
+        font-size: 50px;
     }
 }
