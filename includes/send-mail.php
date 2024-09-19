@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Verzend de bevestigingsmail naar de gebruiker
     $confirmation_subject = "Bevestiging van je bericht";
     $confirmation_body = "Beste $voornaam $achternaam,\n\n";
-    $confirmation_body .= "Ik heb je bericht succesvol ontvangen! Ik zal zo snel mogelijk contact me je opnemen.\n\n";
+    $confirmation_body .= "Ik heb je bericht succesvol ontvangen! Ik zal zo snel mogelijk contact met je opnemen.\n\n";
     $confirmation_body .= "Met vriendelijke groet,\n\n";
     $confirmation_body .= "Milan Megens\n\n";
     $confirmation_headers = "From: no-reply@milanmegens.nl\r\n";
