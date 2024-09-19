@@ -16,6 +16,14 @@ body {
     position: relative;
 }
 
+.socials2{
+    display: none;
+}
+
+.socials_lijn{
+    display: none;
+}
+
 .functie{
     font-size: 22px;
     color: #808080;
@@ -791,6 +799,14 @@ textarea:focus{
         height: 550px;
     }
 
+    .socials2{
+        display: none;
+    }
+
+    .socials_lijn{
+        display: none;
+    }
+
     .tekst{
         display: flex;
         flex-direction: column;
@@ -902,7 +918,7 @@ textarea:focus{
     }
     
     .vaardigheden hr{
-        width: 250px;
+        width: 30%;
     }
 
     .proglijn{
@@ -921,6 +937,10 @@ textarea:focus{
     /*------------ Projecten pagina ------------*/
     .projecten{
         height: 525px;
+    }
+
+    .projecten hr{
+        width: 30%;
     }
     
     .projects {
@@ -1031,5 +1051,175 @@ textarea:focus{
 
     .overlay .tekst{
         align-items: baseline;
+    }
+}
+
+/*------------ Desktop CSS ------------*/
+@media only screen and (min-width: 769px) {
+    /*------------ Homepage ------------*/
+    .homepage{
+        height: 800px;
+    }
+
+    .foto-1 {
+        position: absolute;
+        bottom: 0;
+        left: 25%;
+        transform: translateX(-50%);
+        height: 700px;
+        width: fit-content;
+        z-index: 1;
+    }
+
+    .tekst{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: baseline;
+        margin-left: 60%;
+    }
+
+    .functie{
+        width: 100%;
+    }
+    
+    /* Titel CSS */
+    .titel{
+        width: 100%;
+    }
+    
+    /* Beschrijving */
+    .beschrijving{
+        width: 70%;
+    }
+
+    .socials2{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 15px;
+        height: 70px;
+        margin: 0;
+        margin-top: 5vh;
+    }
+
+    .socials2 p{
+        font-size: 30px;
+        margin-right: 30px;
+    }
+
+    .socials2 img{
+        width: fit-content;
+        height: 40px;
+    }
+
+    .socials_lijn{
+        display: block;
+        order: none;      
+        height: 2px;          
+        background-color: #000;
+        margin: 0;
+        width: 100%;
+    }
+
+    .milan{
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+    }
+
+    /*------------ Over mij ------------*/
+    .overmij {
+        height: 700px;
+    }
+
+    .overmij p{
+        width: 35%;
+    }
+    
+    .overmij img{
+        height: 600px;
+    }
+    
+    .cv {
+        top: 60%;
+        width: 20%;
+    }
+
+    /*------------ Vaardigheden pagina ------------*/
+    .vaardigheden{
+        height: 900px;
+    }
+
+    .vaardigheden hr{
+        width: 20%;
+    }
+
+    .progtalen {
+        width: 0;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .powerpoint{
+        grid-column: 5;
+    }
+
+    .gsap{
+        grid-column: 3/5;
+    }
+
+    /*------------ Projecten pagina ------------*/
+    .projecten hr{
+        width: 20%;
+    }
+
+    /*------------ Contact pagina ------------*/
+    .wow {
+        display: flex;
+        height: 31.25vw;
+        width: fit-content;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row; 
+        justify-content: start;
+        align-items: baseline;
+        height: 1450px;
+        background-color: #E3E3E3;
+        position: relative;
+        margin-left: 1%;
+    }
+    
+    .contactblokjes, .referenties {
+        width: 33%;
+    }
+
+    .reviews .titel{
+        margin: 0;
+        width: 70%;
+    }
+
+    .box{
+        height: 50px;
+        margin-bottom: 26px;
+    }
+
+    .box .tekst{
+        align-items: baseline;
+        margin: 0;
+    }
+
+    .overlay {
+        width: 25%;
+        top: 50%;
+        margin-left: 10%;
+    }
+
+    .overlay .tekst{
+        align-items: baseline;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
     }
 }

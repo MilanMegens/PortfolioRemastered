@@ -186,7 +186,10 @@
                     </p>
                 </div>
             </div>
-        </div><!-- Reviews moeten in deze div -->   
-        <img class="wow" src="content/fotos/milan-3.png" alt="Foto onderaan">
+        </div><!-- Reviews moeten in deze div -->  
+        
+        <div class="fotoke">
+          <img class="wow" src="content/fotos/milan-3.png" alt="Foto onderaan">
+        </div> 
     </div> 
 </div>

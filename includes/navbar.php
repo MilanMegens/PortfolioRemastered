@@ -13,9 +13,9 @@
         </div>
         <div class="desktop-menu" id="desktop-menu">
             <a href="#overmij">Over mij</a>
-            <a href="#Vaardigheden">Vaardigheden</a>
-            <a href="#Projecten">Projecten</a>
-            <a href="#Contact">Contact</a>
+            <a href="#vaardigheden">Vaardigheden</a>
+            <a href="#projecten">Projecten</a>
+            <a href="#contact">Contact</a>
         </div>
     </div>
 

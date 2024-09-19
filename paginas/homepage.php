@@ -12,6 +12,25 @@
             en projecten. Voel je vrij om contact
             met me op te nemen!
         </p>
+
+        <div class="milan">
+            <div class="socials2">
+                    <p>Socials</p>
+                    <a href="https://www.linkedin.com/in/milanmegens2007" target="_blank">
+                        <img src="content/icons/linkedin.png">
+                    </a>
+                    <a href="https://github.com/MilanMegens" target="_blank">
+                        <img src="content/icons/github.png">
+                    </a>
+                    <a href="https://www.instagram.com/milanmegens/" target="_blank">
+                        <img src="content/icons/instagram.png">
+                    </a>
+                    <a href="mailto:milanoss2007@gmail.com" target="_blank">
+                        <img src="content/icons/mail.png">
+                    </a>
+            </div>
+            <hr class='socials_lijn'>
+        </div>
     </div>
 
     <div class="foto">
