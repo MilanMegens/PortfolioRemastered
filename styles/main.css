@@ -410,6 +410,8 @@ body {
     margin-top: 5px;
     width: 80%;
     height: 125px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .project1 .boxje{
@@ -427,6 +429,7 @@ body {
 
 .project1 .boxje p{
     margin: 0;
+    margin-top: 5px;
 }
 
 .project1 h1,
@@ -757,6 +760,7 @@ textarea:focus{
     position: absolute;
     bottom: 0;
     align-self: center;
+    margin-left: 10%;
 }
 
 #scrollToTop {
@@ -936,7 +940,7 @@ textarea:focus{
 
     /*------------ Projecten pagina ------------*/
     .projecten{
-        height: 525px;
+        height: 500px;
     }
 
     .projecten hr{
@@ -952,13 +956,13 @@ textarea:focus{
         justify-content: space-between;
     }
     
-    .project1 {
+    .projects .project1 {
         flex: 0 1 calc(50% - 20px);
         box-sizing: border-box;
         margin-bottom: 30px;
     }
     
-    .project1 .boxje {
+    .projects .project1 .boxje {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -968,9 +972,13 @@ textarea:focus{
         background-color: #CBCBCB;
         margin-top: 10px;
     }
+
+    .projects .project1 .boxje p {
+        text-align: center;
+    }
     
-    .project1 h1,
-    .project1 p {
+    .projects .project1 h1,
+    .projects .project1 p {
         width: 100%;
         text-align: left;
         font-weight: normal;
@@ -1173,11 +1181,67 @@ textarea:focus{
         width: 20%;
     }
 
+    .projecten{
+        height: 550px;
+    }
+
+    .projects {
+        margin-top: 50px;
+        margin-left: 80px;
+        margin-right: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .projects .project1 {
+        flex: 0 1 calc(27% - 20px);
+        box-sizing: border-box;
+        margin-bottom: 30px;
+    }
+
+    .projects .project1 .boxje{
+        height: 240px;
+    }
+
+    .project1 .boxje img{
+        height: 180px;
+    }
+
+    .casestudy .tekst{
+        text-align: left;
+        align-items: start;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .overzicht,
+    .bijlagen,
+    .probleemstelling,
+    .aanpak,
+    .resultaten,
+    .reflectie{
+        width: 100%;
+    }
+
+    .casestudy button{
+        margin-left: 10vw;
+        width: 200px;
+        height: 60px;
+    }
+
+    .casestudy::after {
+        content: "LinkedIn school project";
+        top: 15%;
+        font-size: 70px;
+    }
+
     /*------------ Contact pagina ------------*/
     .wow {
         display: flex;
         height: 31.25vw;
         width: fit-content;
+        margin: 0;
     }
 
     .contact {
